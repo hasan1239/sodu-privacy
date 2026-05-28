@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sodu — Privacy Policy</title>
+  <title>Sodu Privacy Policy</title>
   <meta name="robots" content="index, follow">
   <style>
     :root { color-scheme: light dark; }
@@ -19,123 +19,98 @@
     @media (prefers-color-scheme: dark) {
       body { color: #ececec; background: #0b0b0c; }
       a { color: #92ab97; }
-      hr { border-color: #23232a; }
     }
     h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
     h2 { font-size: 1.2rem; margin-top: 2rem; }
     .updated { color: #6e6657; font-size: 0.9rem; margin-top: 0; }
     @media (prefers-color-scheme: dark) { .updated { color: #8c8c92; } }
     a { color: #6b8f7a; }
-    code { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 0.9em; }
     ul { padding-left: 1.25rem; }
     li { margin: 0.3rem 0; }
-    hr { border: none; border-top: 1px solid #e4ddc9; margin: 2.5rem 0; }
   </style>
 </head>
 <body>
-  <h1>Sodu — Privacy Policy</h1>
+  <h1>Sodu Privacy Policy</h1>
   <p class="updated">Last updated: 28 May 2026</p>
 
   <p>
-    Sodu is a daily Sudoku app. This policy explains what data the app handles,
-    why, where it is stored, and how you can delete it. Sodu is built to collect
-    as little as possible: there are no accounts, no advertising, and no analytics
-    or crash-reporting trackers.
+    Sodu is a daily Sudoku game, operated by its developer ("we", "us"). This
+    policy explains what information the app handles and the choices you have.
+    Sodu has no user accounts, no advertising, and no third-party analytics. If
+    you have any questions, contact us at
+    <a href="mailto:hasantariq.apps@gmail.com">hasantariq.apps@gmail.com</a>.
   </p>
 
-  <h2>What we collect</h2>
+  <h2>Information we collect</h2>
   <p>
-    When you <strong>finish a daily puzzle</strong> (by solving it, using all five
-    strikes, or giving up), the app sends a single record to our stats service so
-    we can show you how your result compares with other players. That record
+    When you finish a daily puzzle, the app sends one record to our server so it
+    can show you how your result compares with other players. That record
     contains:
   </p>
   <ul>
-    <li>An <strong>anonymous device identifier</strong> — a random ID generated on your device when you install the app. It is not your name, email, phone number, Google account, advertising ID, or any hardware identifier, and it cannot be used to identify you.</li>
-    <li>The <strong>puzzle</strong> identifier, date, and difficulty (Easy / Medium / Hard).</li>
-    <li>The <strong>outcome</strong> — whether you won or lost.</li>
-    <li>Your <strong>completion time</strong> and whether the solve included any mistakes.</li>
-    <li>The <strong>time</strong> the result was submitted.</li>
+    <li>a random identifier created on your device when you install the app (it is not linked to your name, email, Google account, or any hardware or advertising ID);</li>
+    <li>the puzzle's date and difficulty;</li>
+    <li>whether you won or lost, your completion time, and whether you made any mistakes;</li>
+    <li>the date and time the result was sent.</li>
   </ul>
   <p>
-    This is the only data that leaves your device. Puzzles played in
-    <strong>Unlimited Puzzles</strong> mode are never submitted. Your personal
-    stats, settings, and progress are stored only on your device.
+    This is the only information that leaves your device. We do not collect your
+    name, email, location, contacts, or any advertising or device identifier.
+    Puzzles played in Unlimited mode are not sent anywhere, and your settings and
+    personal statistics stay on your device.
   </p>
 
-  <h2>What we do not collect</h2>
-  <ul>
-    <li>No name, email address, or account — Sodu has no sign-in.</li>
-    <li>No advertising ID, Android ID, IMEI, or other persistent device identifiers.</li>
-    <li>No location data.</li>
-    <li>No contacts, photos, files, or other personal content.</li>
-    <li>No third-party analytics, advertising, or crash-reporting SDKs.</li>
-  </ul>
-
-  <h2>Where your data is stored</h2>
+  <h2>Legal basis</h2>
   <p>
-    Submitted results are stored in a Postgres database hosted by
-    <strong>Neon</strong> in Amazon Web Services' <strong>eu-west-2 (London)</strong>
-    region. The service is fronted by <strong>Cloudflare Workers</strong>, which
-    processes requests at the network edge; your data is never stored outside the
-    eu-west-2 region. Cloudflare may briefly handle standard request metadata (such
-    as IP address) to deliver and protect the service, but the app does not log,
-    store, or correlate this. All data is encrypted in transit (HTTPS).
-  </p>
-  <p>
-    Neon and Cloudflare act as data processors on our behalf; we do not sell or
-    share your data with any third party for their own purposes.
+    Where UK or EU data protection law applies, we process this information under
+    our legitimate interest in providing the comparative statistics feature. The
+    data is limited and cannot be used to identify you.
   </p>
 
-  <h2>Payments</h2>
+  <h2>Who has access</h2>
   <p>
-    Sodu offers one optional one-time purchase, "Unlimited Puzzles". Payments are
-    handled entirely by <strong>Google Play Billing</strong>. We never receive or
-    store your payment details. Whether you own the purchase is confirmed with
-    Google Play and stored only on your device. Google's handling of your payment
-    is covered by the
+    We do not sell your information or share it for anyone else's purposes. To run
+    the service, the data is handled by our cloud database and edge-network
+    providers, who act only on our instructions. It is stored within the UK/EU and
+    encrypted while being sent.
+  </p>
+  <p>
+    Purchases of the optional "Unlimited Puzzles" upgrade are processed by Google
+    Play. We never receive or store your payment details. Google's handling of
+    your payment is covered by the
     <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
   </p>
 
-  <h2>Data retention</h2>
+  <h2>Keeping and deleting your data</h2>
   <p>
-    Submitted puzzle results are kept so comparative statistics stay accurate over
-    time. We do not have a fixed deletion schedule — instead, you can delete your
-    data at any time, and we honour that immediately (see below).
+    We keep submitted results for as long as the comparative statistics rely on
+    them. You can remove everything at any time from Settings, using "Delete all
+    my stats". This erases the data on your device and permanently deletes every
+    record tied to your device identifier from our server. Uninstalling the app
+    removes the local data; to also remove the server records, delete your stats
+    first.
   </p>
 
-  <h2>Your choices and rights</h2>
-  <ul>
-    <li><strong>View your identifier:</strong> your anonymous device ID is shown in the app's Settings.</li>
-    <li><strong>Delete your data:</strong> tap <strong>"Delete all my stats"</strong> in Settings. This erases all data stored on your device and permanently deletes every result associated with your device ID from our server. Afterwards your device is treated as a fresh install.</li>
-    <li><strong>Uninstalling</strong> the app removes all local data. To also remove your submitted results from the server, use "Delete all my stats" before uninstalling.</li>
-  </ul>
+  <h2>Your rights</h2>
   <p>
-    If you are in the UK or EU, you have rights under the UK GDPR / GDPR including
-    access, rectification, and erasure. Because Sodu holds no information that
-    identifies you personally, the in-app deletion tool is the most direct way to
-    exercise these rights. You can also contact us using the details below.
+    If you are in the UK or EU, you have the right to access, correct, or erase
+    your information, to restrict or object to its use, and to data portability.
+    Because the in-app "Delete all my stats" tool removes your data directly, it
+    is usually the quickest way to do this, but you can also contact us at
+    <a href="mailto:hasantariq.apps@gmail.com">hasantariq.apps@gmail.com</a>. You
+    also have the right to complain to the Information Commissioner's Office
+    (<a href="https://ico.org.uk">ico.org.uk</a>) about how your data is handled.
   </p>
 
-  <h2>Children</h2>
+  <h2>Changes</h2>
   <p>
-    Sodu is a general-audience puzzle game and is not directed at children under 13.
-    It collects no personal information from anyone.
-  </p>
-
-  <h2>Changes to this policy</h2>
-  <p>
-    If this policy changes, we will update the date at the top of this page. Material
-    changes will be reflected here before they take effect.
+    If this policy changes, we will update the date at the top of this page before
+    the changes take effect.
   </p>
 
   <h2>Contact</h2>
   <p>
-    Questions about this policy or your data:
-    <a href="mailto:hasantariq.apps@gmail.com">hasantariq.apps@gmail.com</a>.
+    <a href="mailto:hasantariq.apps@gmail.com">hasantariq.apps@gmail.com</a>
   </p>
-
-  <hr>
-  <p class="updated">Sodu &middot; <a href="https://sodu.app">sodu.app</a></p>
 </body>
 </html>
